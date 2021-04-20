@@ -19,3 +19,5 @@ As a small failsafe the extension does check if the From field has a value super
 .js File doing the above is located unter MochiSwap-PriceFetchet\content\content.js
 
 This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace Line 10 of content.js with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ.
+
+![image](https://user-images.githubusercontent.com/7372902/115428794-0eb0c700-a203-11eb-882e-1781fba37406.png)
