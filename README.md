@@ -16,3 +16,5 @@ Now press you F12 key and switch to the Console tab, it should start outputting 
 This is just a mockup template you can use to dump the data somewhere in order to design your own chart.
 
 As a small failsafe the extension does check if the From field has a value superior to 0, it also checks if the price of Pair1 per Pair2 is higher than 0 before outputting it.
+
+.js File doing the above is located unter MochiSwap-PriceFetchet\content\content.js
