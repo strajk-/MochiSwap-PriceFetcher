@@ -13,8 +13,8 @@ This chrome extension waits for the user to select a pair, and then fetches the 
 5. Input 1 into the From: field of Pair1
 
 Now press you F12 key and switch to the Console tab, it should start outputting the Datetime and Price of 1USDT per ONE in there.
-This is just a mockup template you can use to dump the data somewhere in order to design your own chart.
-
 As a small failsafe the extension does check if the From field has a value superior to 0, it also checks if the price of Pair1 per Pair2 is higher than 0 before outputting it.
 
 .js File doing the above is located unter MochiSwap-PriceFetchet\content\content.js
+
+This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace Line 10 of content.js with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ.
