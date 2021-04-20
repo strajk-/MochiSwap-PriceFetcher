@@ -1,0 +1,30 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "MochiSwap-PriceFetcher",
+  "version": "1.0.0",
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://one.mochiswap.io/*"],
+      "js": ["content/content.js"]
+    }
+  ],
+
+  // Recommended
+  "description": "MochiSwap has no API, this allows to fetch the price once a pair is selected",
+  "icons":
+    {
+      "128": "./images/icon.png",
+      "16": "./images/icon.png",
+      "48": "./images/icon.png"
+    },
+
+  "page_action": {
+	"default_icon": {
+      "16": "./images/icon.png",
+      "24": "./images/icon.png",
+      "32": "./images/icon.png"
+    }
+  }
+}
