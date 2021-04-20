@@ -6,7 +6,7 @@ This chrome extension waits for the user to select a pair, and then fetches the 
 
 
 # How to use it
-1. Download the directory MochiSwap-PriceFetcher and open chrome://extensions/
+1. [Download MochiSwap-PriceFetcher](https://downgit.github.io/#/home?url=https://github.com/strajk-/MochiSwap-PriceFetcher/tree/main/MochiSwap-PriceFetcher) and open chrome://extensions/
 2. Drag the downloaded directory into the chrome://extensions/ window to install it
 3. Navigate to https://one.mochiswap.io/#/swap
 4. Select two Pairs, example: Pair1 = 1USDT / Pair2 = ONE
