@@ -16,8 +16,8 @@ Now press your F12 key and switch to the Console tab, it should start outputting
 
 As a small failsafe the extension does check if the From field has a value superior to 0, it also checks if the price of Pair1 per Pair2 is higher than 0 before outputting it.
 
-.js File doing the above is located unter MochiSwap-PriceFetchet\content\content.js
+.js File doing the above is located unter [MochiSwap-PriceFetchet\content\content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/main/MochiSwap-PriceFetcher/content/content.js)
 
-This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace Line 10 of content.js with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ.
+This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace [Line 10 of content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/4238a4c268faa9cb87dcc418a22f1fefb250dc4e/MochiSwap-PriceFetcher/content/content.js#L10) with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ time to get creative.
 
 ![image](https://user-images.githubusercontent.com/7372902/115428794-0eb0c700-a203-11eb-882e-1781fba37406.png)
