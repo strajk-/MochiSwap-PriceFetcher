@@ -9,12 +9,12 @@ This chrome extension waits for the user to select a pair, and then fetches the 
 1. [Download MochiSwap-PriceFetcher](https://downgit.github.io/#/home?url=https://github.com/strajk-/MochiSwap-PriceFetcher/tree/main/MochiSwap-PriceFetcher) and open chrome://extensions/
 2. Drag the downloaded directory into the chrome://extensions/ window to install it
 3. Navigate to https://one.mochiswap.io/#/swap
-4. Select two Pairs, example: Pair1 = 1USDT / Pair2 = ONE
+4. Select two Pairs, example: Pair1 = ONE / Pair2 = USDT
 5. Input 1 into the From: field of Pair1
 
 Now press your F12 key and switch to the Console tab, it should start outputting the Datetime and Price of 1USDT per ONE every 5 seconds.
 
-As a small failsafe the extension does check if the From field has a value superior to 0, it also checks if the price of Pair1 per Pair2 is higher than 0 before outputting it.
+As a small failsafe the extension does check if the From field has a value superior to 0.
 
 .js File doing the above is located unter [MochiSwap-PriceFetchet\content\content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/main/MochiSwap-PriceFetcher/content/content.js)
 
