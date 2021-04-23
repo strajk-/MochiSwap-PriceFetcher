@@ -18,6 +18,6 @@ As a small failsafe the extension does check if the From field has a value super
 
 .js File doing the above is located unter [MochiSwap-PriceFetchet\content\content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/main/MochiSwap-PriceFetcher/content/content.js)
 
-This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace [Line 10 of content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/4238a4c268faa9cb87dcc418a22f1fefb250dc4e/MochiSwap-PriceFetcher/content/content.js#L10) with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ time to get creative.
+This is just a mockup template you can use to dump the data somewhere in order to design your own chart, fork this repo and replace [Line 7 of content.js](https://github.com/strajk-/MochiSwap-PriceFetcher/blob/4238a4c268faa9cb87dcc418a22f1fefb250dc4e/MochiSwap-PriceFetcher/content/content.js#L7) with whatever you want, output it to a file, directly PUT it into a dataset, you name it, ball is on your side now champ time to get creative.
 
 ![image](https://user-images.githubusercontent.com/7372902/115920477-8b010f80-a47a-11eb-920e-fa58d5f0d09a.png)
